@@ -1,0 +1,94 @@
+﻿h1{
+font-family: Helvetica, Geneva, Arial,
+SunSans-Regular, sans-serif
+}
+	*{
+		margin:0;
+		padding:0;
+	 }
+	#menu{
+		
+		margin:0 auto  ; <!--DIV與外邊界的距離 margin:上下左右-->
+		position:fixed;
+		float:right;
+	}
+	
+	.main
+	{
+	background-color:#2ECCFA;  
+	color:#0066FF; <!--字型顏色-->
+	font-family:微軟正黑體;
+	font-weight:bold;
+	font-size:20px;
+	cursor:pointer; <!--改變鼠標圖片-->
+	text-align:center;
+	height:35px;
+	line-height:35px;
+	width:100px;
+	
+	}
+	.main:hover{
+		background-color:#5599FF;
+		
+	}
+	.sub{
+	background-color:#5599FF;
+	color:#FFF;
+	font-family:微軟正黑體;
+	text-align:center;
+	font-weight:bold;
+	width:100px;
+	}
+    .sub li{
+        list-style-type:none;
+        line-height:30px;
+		height:30px;
+		border-bottom:1px solid
+		#777;
+    }
+	.item{
+	float:left;
+	}
+
+input[value="LimitBonus說明"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="火屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="水屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="土屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="風屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="光屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+input[value="暗屬性"]{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
